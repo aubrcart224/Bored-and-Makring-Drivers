@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bored and Makring Drivers", "Bored and Makring Drivers\Bored and Makring Drivers.vcxproj", "{012C7BE2-13BC-46B5-A474-CB033D307FDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Debug|ARM64.Build.0 = Debug|ARM64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Debug|x64.ActiveCfg = Debug|x64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Debug|x64.Build.0 = Debug|x64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Debug|x64.Deploy.0 = Debug|x64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Release|ARM64.ActiveCfg = Release|ARM64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Release|ARM64.Build.0 = Release|ARM64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Release|ARM64.Deploy.0 = Release|ARM64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Release|x64.ActiveCfg = Release|x64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Release|x64.Build.0 = Release|x64
+		{012C7BE2-13BC-46B5-A474-CB033D307FDA}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5551A921-FB0E-40C3-9DFE-3A7B06D333A0}
+	EndGlobalSection
+EndGlobal
