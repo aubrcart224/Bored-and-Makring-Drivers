@@ -2,7 +2,7 @@
 #include <wdf.h>	
 
 
-DRIVER_INITIALIZE; 
+DRIVER_INITIALIZE DriverEntry; 
 EVT_WDF_DRIVER_DEVICE_ADD EvtDriverDeviceAdd;
 EVT_WDF_DEVICE_CONTEXT_CLEANUP UnloadDriver;	
 
@@ -28,7 +28,6 @@ NTSTATUS DriverEntry(_In_ PDRIVER_OBJECT DriverObject, _In_ PUNICODE_STRING Regi
 	DbgPrint("Driver loaded");
 
 	return status;
-
 }
 
 // add device
@@ -40,3 +39,12 @@ NTSTATUS EvtDriverDeviceAdd(IN WDFDRIVER driver, IN PWDFDEVICE_INIT deviceInit)
 
 	return status; 
 }	
+
+
+/*
+void EvtIoDefault(IN WDFQUEUE queue, IN WDFREQUEST request)
+{
+	UNREFERENCED_PARAMETER(queue);
+	WdfRequestComplete(request, STATUS_SUCCESS);
+}
+*/
